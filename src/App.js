@@ -7,6 +7,8 @@ import EVENT_HANDLER_ClASS from "./EVENT_HANDLER_ClASS";
 import EVENT_BINDING from "./EVENT_BINDING";
 import HOOKS_USESTATE from "./HOOKS_USESTATE/index1";
 import HOOKS_USESTATE_2 from "./HOOKS_USESTATE/index2";
+import UPDATE_PREVIOUS_STATE from "./UPDATE_PREVIOUS_STATE";
+import EVENT_BUBBLING_STOP_PROPAGATION from "./EVENT_BUBBLING_STOP_PROPAGATION";
 
 
 
@@ -25,7 +27,10 @@ function App(){
                 {/* <EVENT_BINDING/> */}
 
                 {/* <HOOKS_USESTATE/> */}
-                <HOOKS_USESTATE_2/>
+                {/* <HOOKS_USESTATE_2/> */}
+
+                {/* <UPDATE_PREVIOUS_STATE/> */}
+                <EVENT_BUBBLING_STOP_PROPAGATION/>
             </div>
 }
 
