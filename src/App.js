@@ -9,12 +9,23 @@ import HOOKS_USESTATE from "./HOOKS_USESTATE/index1";
 import HOOKS_USESTATE_2 from "./HOOKS_USESTATE/index2";
 import UPDATE_PREVIOUS_STATE from "./UPDATE_PREVIOUS_STATE";
 import EVENT_BUBBLING_STOP_PROPAGATION from "./EVENT_BUBBLING_STOP_PROPAGATION";
+import COUNTER_APP from "./COUNTER_APP";
+import FORM from "./components/FORM/form";
+import FORM1 from "./components/FORM/form";
+import FORM2 from "./components/FORM/form_useSatate_with_Object";
+import CHILD from "./components/STATE_LIFTING/child";
 
 
 
 
 function App(){
   
+    const data = "I am from parent (app)";
+
+    const handleChildData = (childData)=>{
+        console.log("App: " + childData)
+    }
+
          return <div>
                 {/* <Card1 name= "card1" desc = "this is card1"/>
                 <Card2 name= "card2"/>
@@ -30,7 +41,13 @@ function App(){
                 {/* <HOOKS_USESTATE_2/> */}
 
                 {/* <UPDATE_PREVIOUS_STATE/> */}
-                <EVENT_BUBBLING_STOP_PROPAGATION/>
+                {/* <EVENT_BUBBLING_STOP_PROPAGATION/> */}
+                {/* <COUNTER_APP/> */}
+                {/* <FORM1/> */}
+                
+                {/* <FORM2/> */}
+                <CHILD dataParent = {data} onChildData ={handleChildData}/>
+                
             </div>
 }
 
