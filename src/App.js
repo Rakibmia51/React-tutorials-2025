@@ -14,17 +14,25 @@ import FORM from "./components/FORM/form";
 import FORM1 from "./components/FORM/form";
 import FORM2 from "./components/FORM/form_useSatate_with_Object";
 import CHILD from "./components/STATE_LIFTING/child";
+import MORE_ON_STATE from "./components/STATE_LIFTING/more_on_state";
+import TODO_APP from "./TODO_APP/App";
+import TODO_APPS from "./TODO_APP/App";
+
 
 
 
 
 function App(){
   
-    const data = "I am from parent (app)";
+    // const data = "I am from parent (app)";
 
-    const handleChildData = (childData)=>{
-        console.log("App: " + childData)
-    }
+    // const handleChildData = (childData)=>{
+    //     console.log("App: " + childData)
+    // }
+
+        // const GetChildData = (childData)=>{
+        //     console.log(childData)
+        // }
 
          return <div>
                 {/* <Card1 name= "card1" desc = "this is card1"/>
@@ -46,8 +54,12 @@ function App(){
                 {/* <FORM1/> */}
                 
                 {/* <FORM2/> */}
-                <CHILD dataParent = {data} onChildData ={handleChildData}/>
-                
+                {/* <CHILD dataParent = {data} onChildData ={handleChildData}/> */}
+                {/* <MORE_ON_STATE data ={GetChildData}/> */}
+                {/* <TODO_APP/> */}
+                <TODO_APPS/>
+
+
             </div>
 }
 

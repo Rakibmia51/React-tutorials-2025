@@ -12,3 +12,24 @@ import React from 'react'
   )
 }
 export default CHILD
+
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+// function App(){
+  
+//     const data = "I am from parent (app)";
+
+//     const handleChildData = (childData)=>{
+//         console.log("App: " + childData)
+//     }
+
+//          return <div>
+                
+//                 <CHILD dataParent = {data} onChildData ={handleChildData}/>
+                
+//             </div>
+// }
+
+// export default App;
