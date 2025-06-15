@@ -9,7 +9,7 @@ import style from './todos.module.css'
    <section className={style.todos}>
         {
             props.todos.map((todo)=>{
-                return <TodoR todo ={todo} key={todo.id}/>
+                return <TodoR todo ={todo.todo} key={todo.id}/>
              
             })
         }
