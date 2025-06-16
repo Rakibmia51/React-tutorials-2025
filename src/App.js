@@ -21,6 +21,7 @@ import PRACTIC_TODO from "./PRACTIC_TODO/home";
 import INVOICE from "./INVOICE_SYSTEM/invoice";
 import APP_INVOICE from "./INVOICE_SYSTEM/app";
 import FORMIK_PACKAGE from "./formik_package/app";
+import TOGGLE from "./TOGGLE/toggle";
 
 
 
@@ -64,7 +65,8 @@ function App(){
                 {/* <TODO_APPS/> */}
                 {/* <PRACTIC_TODO/> */}
                 {/* <APP_INVOICE/> */}
-                <FORMIK_PACKAGE/>
+                {/* <FORMIK_PACKAGE/> */}
+                <TOGGLE/>
 
             </div>
 }
