@@ -17,6 +17,10 @@ import CHILD from "./components/STATE_LIFTING/child";
 import MORE_ON_STATE from "./components/STATE_LIFTING/more_on_state";
 import TODO_APP from "./TODO_APP/App";
 import TODO_APPS from "./TODO_APP/App";
+import PRACTIC_TODO from "./PRACTIC_TODO/home";
+import INVOICE from "./INVOICE_SYSTEM/invoice";
+import APP_INVOICE from "./INVOICE_SYSTEM/app";
+import FORMIK_PACKAGE from "./formik_package/app";
 
 
 
@@ -57,8 +61,10 @@ function App(){
                 {/* <CHILD dataParent = {data} onChildData ={handleChildData}/> */}
                 {/* <MORE_ON_STATE data ={GetChildData}/> */}
                 {/* <TODO_APP/> */}
-                <TODO_APPS/>
-
+                {/* <TODO_APPS/> */}
+                {/* <PRACTIC_TODO/> */}
+                {/* <APP_INVOICE/> */}
+                <FORMIK_PACKAGE/>
 
             </div>
 }
