@@ -1,4 +1,4 @@
-.container{
+/* main{
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
     padding: 1rem;
 }
 
-.faqs{
+section{
     width: 50rem;
     max-width: 100%;
     background-color: rgb(129, 129, 129);
@@ -18,4 +18,4 @@
 h1{
     text-align: center;
     background-color: red;
-}
+} */

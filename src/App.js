@@ -23,6 +23,7 @@ import APP_INVOICE from "./INVOICE_SYSTEM/app";
 import FORMIK_PACKAGE from "./formik_package/app";
 import TOGGLE from "./TOGGLE/toggle";
 import FAQS from "./FAQS/FAQS";
+import UseEffectExample from "./HOOKS/useEffect/UseEffectExample";
 
 
 
@@ -68,7 +69,8 @@ function App(){
                 {/* <APP_INVOICE/> */}
                 {/* <FORMIK_PACKAGE/> */}
                 {/* <TOGGLE/> */}
-                <FAQS/>
+                {/* <FAQS/> */}
+                <UseEffectExample/>
 
             </div>
 }
