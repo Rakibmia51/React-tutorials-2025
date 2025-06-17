@@ -24,6 +24,7 @@ import FORMIK_PACKAGE from "./formik_package/app";
 import TOGGLE from "./TOGGLE/toggle";
 import FAQS from "./FAQS/FAQS";
 import UseEffectExample from "./HOOKS/useEffect/UseEffectExample";
+import DataFetch from "./HOOKS/fetching_data/DataFetch";
 
 
 
@@ -70,7 +71,8 @@ function App(){
                 {/* <FORMIK_PACKAGE/> */}
                 {/* <TOGGLE/> */}
                 {/* <FAQS/> */}
-                <UseEffectExample/>
+                {/* <UseEffectExample/> */}
+                <DataFetch/>
 
             </div>
 }
