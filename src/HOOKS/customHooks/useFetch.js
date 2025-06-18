@@ -1,19 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, {useState, useEffect} from 'react'
 
-
-
-const loadingMessage = <p>Data is Loading...</p>
-
- function DataFetch() {
-
-    const [todos, setTodo] = useState([]);
+const useFetch = (url) => {
+    const [data, setData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
 
     useEffect(()=>{
         // setTimeout(()=>{
 
-              fetch("https://jsonplaceholder.typicode.com/todos")
+              fetch(url)
               .then((res)=>{
 
                 if(!res.ok){
@@ -23,7 +18,7 @@ const loadingMessage = <p>Data is Loading...</p>
                   return res.json()
               })
               .then((data)=>{
-                  setTodo(data);
+                  setData(data);
                   // console.log(todos)
                   setIsLoading(false)
                   setError(null)
@@ -35,23 +30,8 @@ const loadingMessage = <p>Data is Loading...</p>
 
         // },2000)
 
-    },[])
-
-    const todoElement = todos && todos.map((todo)=>{
-                return <p key={todo.id}>{todo.title}</p>
-                
-            })
-
-    
-
-  return (
-    <div>
-        <h1>Data Fetch - Todos</h1>
-        {error && <p>{error}</p>}
-        {isLoading && loadingMessage}
-        {todoElement}
-    </div>
-
-  )
+    },[url]);
+    return {data, isLoading, error}
 }
-export default DataFetch
+
+export default useFetch

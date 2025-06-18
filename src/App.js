@@ -25,6 +25,8 @@ import TOGGLE from "./TOGGLE/toggle";
 import FAQS from "./FAQS/FAQS";
 import UseEffectExample from "./HOOKS/useEffect/UseEffectExample";
 import DataFetch from "./HOOKS/fetching_data/DataFetch";
+import CustomDataFetch from "./HOOKS/customHooks/DataFetch";
+import CustomDataFetch_2 from "./HOOKS/customHooks/DataFetch-2";
 
 
 
@@ -72,7 +74,9 @@ function App(){
                 {/* <TOGGLE/> */}
                 {/* <FAQS/> */}
                 {/* <UseEffectExample/> */}
-                <DataFetch/>
+                {/* <DataFetch/> */}
+                <CustomDataFetch/>
+                <CustomDataFetch_2/>
 
             </div>
 }
