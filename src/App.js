@@ -28,6 +28,7 @@ import DataFetch from "./HOOKS/fetching_data/DataFetch";
 import CustomDataFetch from "./HOOKS/customHooks/DataFetch";
 import CustomDataFetch_2 from "./HOOKS/customHooks/DataFetch-2";
 import COUNTRY_APP from "./COUNTRY_APP/app";
+import Dynamic_styling from "./DYNAMIC_STYLING/Dynamic_styling";
 
 
 
@@ -78,7 +79,8 @@ function App(){
                 {/* <DataFetch/> */}
                 {/* <CustomDataFetch/>
                 <CustomDataFetch_2/> */}
-                <COUNTRY_APP/>
+                {/* <COUNTRY_APP/> */}
+                <Dynamic_styling/>
 
 
             </div>
