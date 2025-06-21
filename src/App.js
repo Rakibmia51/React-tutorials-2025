@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Card1 from "./components/Card1";
 import Card2 from "./components/Card2";
 import Example from "./components/Example";
@@ -29,6 +29,8 @@ import CustomDataFetch from "./HOOKS/customHooks/DataFetch";
 import CustomDataFetch_2 from "./HOOKS/customHooks/DataFetch-2";
 import COUNTRY_APP from "./COUNTRY_APP/app";
 import Dynamic_styling from "./DYNAMIC_STYLING/Dynamic_styling";
+import FRAGMENT from "./FRAGMENT/Fragment";
+import App_Fragment from "./FRAGMENT/App_Fragment";
 
 
 
@@ -80,7 +82,9 @@ function App(){
                 {/* <CustomDataFetch/>
                 <CustomDataFetch_2/> */}
                 {/* <COUNTRY_APP/> */}
-                <Dynamic_styling/>
+                {/* <Dynamic_styling/> */}
+                {/* <FRAGMENT/> */}
+                <App_Fragment/>
 
 
             </div>
