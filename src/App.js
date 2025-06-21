@@ -31,6 +31,8 @@ import COUNTRY_APP from "./COUNTRY_APP/app";
 import Dynamic_styling from "./DYNAMIC_STYLING/Dynamic_styling";
 import FRAGMENT from "./FRAGMENT/Fragment";
 import App_Fragment from "./FRAGMENT/App_Fragment";
+import PropTypes from "./PROP_TYPES/App";
+import PropTypes_App from "./PROP_TYPES/App";
 
 
 
@@ -84,7 +86,8 @@ function App(){
                 {/* <COUNTRY_APP/> */}
                 {/* <Dynamic_styling/> */}
                 {/* <FRAGMENT/> */}
-                <App_Fragment/>
+                {/* <App_Fragment/> */}
+                <PropTypes_App/>
 
 
             </div>
