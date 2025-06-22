@@ -34,6 +34,7 @@ import App_Fragment from "./FRAGMENT/App_Fragment";
 import PropTypes from "./PROP_TYPES/App";
 import PropTypes_App from "./PROP_TYPES/App";
 import LifeCycle from "./LifeCycle/LifeCycle";
+import UserForm from "./RefExample/UserForm";
 
 
 
@@ -89,7 +90,8 @@ function App(){
                 {/* <FRAGMENT/> */}
                 {/* <App_Fragment/> */}
                 {/* <PropTypes_App/> */}
-                <LifeCycle/>
+                {/* <LifeCycle/> */}
+                <UserForm/>
 
 
             </div>
