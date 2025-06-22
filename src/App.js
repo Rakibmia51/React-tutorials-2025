@@ -33,6 +33,7 @@ import FRAGMENT from "./FRAGMENT/Fragment";
 import App_Fragment from "./FRAGMENT/App_Fragment";
 import PropTypes from "./PROP_TYPES/App";
 import PropTypes_App from "./PROP_TYPES/App";
+import LifeCycle from "./LifeCycle/LifeCycle";
 
 
 
@@ -87,7 +88,8 @@ function App(){
                 {/* <Dynamic_styling/> */}
                 {/* <FRAGMENT/> */}
                 {/* <App_Fragment/> */}
-                <PropTypes_App/>
+                {/* <PropTypes_App/> */}
+                <LifeCycle/>
 
 
             </div>
