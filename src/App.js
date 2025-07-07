@@ -27,6 +27,9 @@ import UseEffectExample from "./HOOKS/useEffect/UseEffectExample";
 import DataFetch from "./HOOKS/fetching_data/DataFetch";
 import CustomDataFetch from "./HOOKS/customHooks/DataFetch";
 import CustomDataFetch_2 from "./HOOKS/customHooks/DataFetch-2";
+import TOASTIFY from "./TOASTIFY/TOASTIFY.js";
+import COUNTRY_APP from "./COUNTRY_APP/App.js";
+
 
 
 
@@ -75,8 +78,10 @@ function App(){
                 {/* <FAQS/> */}
                 {/* <UseEffectExample/> */}
                 {/* <DataFetch/> */}
-                <CustomDataFetch/>
-                <CustomDataFetch_2/>
+                {/* <CustomDataFetch/>
+                <CustomDataFetch_2/> */}
+                {/* <TOASTIFY/> */}
+                <COUNTRY_APP/>
 
             </div>
 }
