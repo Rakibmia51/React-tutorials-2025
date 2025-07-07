@@ -29,6 +29,7 @@ import CustomDataFetch from "./HOOKS/customHooks/DataFetch";
 import CustomDataFetch_2 from "./HOOKS/customHooks/DataFetch-2";
 import TOASTIFY from "./TOASTIFY/TOASTIFY.js";
 import COUNTRY_APP from "./COUNTRY_APP/App.js";
+import UseReducer from "./HOOKS/UseReducer/index.js";
 
 
 
@@ -81,7 +82,8 @@ function App(){
                 {/* <CustomDataFetch/>
                 <CustomDataFetch_2/> */}
                 {/* <TOASTIFY/> */}
-                <COUNTRY_APP/>
+                {/* <COUNTRY_APP/> */}
+                <UseReducer/>
 
             </div>
 }
