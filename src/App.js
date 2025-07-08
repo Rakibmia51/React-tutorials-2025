@@ -31,6 +31,9 @@ import CustomDataFetch_2 from "./HOOKS/customHooks/DataFetch-2";
 import COUNTRY_APP from "./COUNTRY_APP/App.js";
 import UseReducer from "./HOOKS/UseReducer/index.js";
 import Component1 from "./Prop_drilling/Component1.js";
+import Component2 from "./useContextHook/Component1.js";
+import Component3 from "./useContextHook/Component3.js";
+import Component1A from "./useContextHook/Component1.js";
 
 
 
@@ -85,7 +88,8 @@ function App(){
                 {/* <TOASTIFY/> */}
                 {/* <COUNTRY_APP/> */}
                 {/* <UseReducer/> */}
-                <Component1/>
+                {/* <Component1/> */}
+                <Component1A/>
 
             </div>
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 import Component4 from './Component4'
 
-function Component3({users}) {
+function Component3() {
   return (
     <div>
-        <Component4 users={users}/>
+        <Component4/>
     </div>
   )
 }

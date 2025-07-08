@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Component2 from './Component2';
 
-const users = [
+const usersData = [
   {
     id : 1,
     name : "Rakibul Hasan"
@@ -10,13 +10,13 @@ const users = [
     id : 2,
     name : "Sakibul Hasan"
   }
-]
+];
 
 function Component1() {
-  const [user, userState] = useState({id: 101, name: "Rakibul Hasan"});
+  const [users, usersState] = useState(usersData);
   return (
     <div>
-      <Component2 user={user}/>
+      <Component2 users={users}/>
     </div>
   )
 }

@@ -1,9 +1,15 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import { UserContext } from './UserContext'
+function Component4() {
 
-function Component4({users}) {
+  const {users, text} = useContext(UserContext)
+
+
   return (
     <div>
+       
         <h3>Component 4: User List</h3>
+        <h1>{text}</h1>
         <ul>
           {users.map((user) => (
             <li key={user.id}>
