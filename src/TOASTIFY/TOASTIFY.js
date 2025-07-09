@@ -1,18 +1,18 @@
-import React from 'react'
+// import React from 'react'
 
- import { ToastContainer, toast } from 'react-toastify';
+//  import { ToastContainer, toast } from 'react-toastify';
 
 
-function TOASTIFY() {
+// function TOASTIFY() {
 
-    const notify = () => toast.success("Wow so easy!");
+//     const notify = () => toast.success("Wow so easy!");
 
-  return (
-    <div>
-        <button onClick={notify}>Notify!</button>
-        <ToastContainer />
-    </div>
-  )
-}
+//   return (
+//     <div>
+//         <button onClick={notify}>Notify!</button>
+//         <ToastContainer />
+//     </div>
+//   )
+// }
 
-export default TOASTIFY
+// export default TOASTIFY
