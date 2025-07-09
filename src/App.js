@@ -25,24 +25,7 @@ import TOGGLE from "./TOGGLE/toggle";
 import FAQS from "./FAQS/FAQS";
 import UseEffectExample from "./HOOKS/useEffect/UseEffectExample";
 import DataFetch from "./HOOKS/fetching_data/DataFetch";
-import CustomDataFetch from "./HOOKS/customHooks/DataFetch";
-import CustomDataFetch_2 from "./HOOKS/customHooks/DataFetch-2";
-<<<<<<< HEAD
-import TOASTIFY from "./TOASTIFY/TOASTIFY.js";
-import COUNTRY_APP from "./COUNTRY_APP/App.js";
-import UseReducer from "./HOOKS/UseReducer/index.js";
 
-=======
-import COUNTRY_APP from "./COUNTRY_APP/app";
-import Dynamic_styling from "./DYNAMIC_STYLING/Dynamic_styling";
-import FRAGMENT from "./FRAGMENT/Fragment";
-import App_Fragment from "./FRAGMENT/App_Fragment";
-import PropTypes from "./PROP_TYPES/App";
-import PropTypes_App from "./PROP_TYPES/App";
-import LifeCycle from "./LifeCycle/LifeCycle";
-import UserForm from "./RefExample/UserForm";
-import UseRefForm from "./HOOKS/UseRefExample/UserForm";
->>>>>>> 4b9ff944011666a6bd02629c48c406c15b364df1
 
 
 
@@ -93,22 +76,10 @@ function App(){
                 {/* <DataFetch/> */}
                 {/* <CustomDataFetch/>
                 <CustomDataFetch_2/> */}
-<<<<<<< HEAD
                 {/* <TOASTIFY/> */}
                 {/* <COUNTRY_APP/> */}
-                <UseReducer/>
-=======
-                {/* <COUNTRY_APP/> */}
-                {/* <Dynamic_styling/> */}
-                {/* <FRAGMENT/> */}
-                {/* <App_Fragment/> */}
-                {/* <PropTypes_App/> */}
-                {/* <LifeCycle/> */}
-                {/* <UserForm/> */}
-                <UseRefForm/>
-
->>>>>>> 4b9ff944011666a6bd02629c48c406c15b364df1
-
+                
+                
             </div>
 }
 
