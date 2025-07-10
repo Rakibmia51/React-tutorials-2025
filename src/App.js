@@ -41,6 +41,7 @@ import UserForm from "./RefExample/UserForm";
 import UseRefForm from "./HOOKS/UseRefExample/UserForm";
 import UserManagement from "./UsingContext/UserManagement/App.js";
 import ContextUserManagement from "./UsingContext/ContextApiUserManagement/App.js";
+import UseReducerWithContextApi from "./UsingContext/UseReducerWithContextApi/App.js";
 
 
 
@@ -104,7 +105,8 @@ function App(){
                 {/* <UserForm/> */}
                 {/* <UseRefForm/> */}
                 {/* <UserManagement/> */}
-                <ContextUserManagement/>
+                {/* <ContextUserManagement/> */}
+                <UseReducerWithContextApi/>
 
             </div>
 }
