@@ -42,6 +42,7 @@ import UseRefForm from "./HOOKS/UseRefExample/UserForm";
 import UserManagement from "./UsingContext/UserManagement/App.js";
 import ContextUserManagement from "./UsingContext/ContextApiUserManagement/App.js";
 import UseReducerWithContextApi from "./UsingContext/UseReducerWithContextApi/App.js";
+import App_ReactRouting from "./ReactRouting/App.js";
 
 
 
@@ -106,7 +107,8 @@ function App(){
                 {/* <UseRefForm/> */}
                 {/* <UserManagement/> */}
                 {/* <ContextUserManagement/> */}
-                <UseReducerWithContextApi/>
+                {/* <UseReducerWithContextApi/> */}
+                <App_ReactRouting/>
 
             </div>
 }
