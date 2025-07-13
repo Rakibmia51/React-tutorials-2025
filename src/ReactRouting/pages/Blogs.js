@@ -24,7 +24,8 @@ function Blogs() {
               return <article key={id}>
                   <h3>{title}</h3>
                   <p>{truncateString(body,200)}</p><br/>
-                  <Link to={title}>Learn More</Link>
+                  <Link to={title} state={{id, title, body}}>Learn More</Link>
+                  { /*2nd Option - state={{id, title, body}} */ }
               </article>
             })}
         </section>
