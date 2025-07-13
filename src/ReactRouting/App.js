@@ -4,9 +4,10 @@ import style from './App.css'
 // pages
 import Home from './pages/Home'
 import Contact from './pages/Contact'
-import Blog from './pages/Blog'
 import Error from './pages/Error'
 import Navbar from './components/Navbar'
+import Blogs from './pages/Blogs'
+import Blog from './pages/Blog'
 
 function App_ReactRouting() {
   return (
@@ -15,7 +16,8 @@ function App_ReactRouting() {
         <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/contact' element={<Contact/>}/>
-                <Route path='/blog' element={<Blog/>}/>
+                <Route path='/blogs' element={<Blogs/>}/>
+                <Route path='/blogs/:title' element={<Blog/>}/>
                 <Route path='*' element={<Error/>}/>
         </Routes>
     </BrowserRouter>
@@ -25,3 +27,12 @@ function App_ReactRouting() {
 // /home -> <Home/>
 // /contact -> <Contact/>
 export default App_ReactRouting
+
+
+// blogs/htm -> htmlPage
+// blogs/css -> cssPage
+// blogs/c -> cpage
+
+// blogs/htm -> Blog (html)
+// blogs/css -> Blog (css)
+// blogs/c -> Blog (c)

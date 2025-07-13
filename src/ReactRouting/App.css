@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
 
 nav{
     height: 10vh;
@@ -19,4 +27,30 @@ nav{
 
 nav .active{
     color: yellow;
+}
+
+
+
+section{
+    margin: 3rem;
+    display: grid;
+    grid-gap: 1rem;
+
+}
+
+article{
+    padding: 2rem;
+    background-color: rgb(211, 230, 247);
+}
+
+@media screen and (min-width: 600px) {
+    section{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section{
+        grid-template-columns: auto auto auto;
+    }
 }
