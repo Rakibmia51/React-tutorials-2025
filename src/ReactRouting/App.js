@@ -8,6 +8,7 @@ import Error from './pages/Error'
 import Navbar from './components/Navbar'
 import Blogs from './pages/Blogs'
 import Blog from './pages/Blog'
+import User from './pages/User'
 
 function App_ReactRouting() {
   return (
@@ -19,6 +20,8 @@ function App_ReactRouting() {
                 <Route path='/blogs' element={<Blogs/>}/>
                 <Route path='/blogs/:title' element={<Blog/>}/>
                 <Route path='*' element={<Error/>}/>
+                {/* <Route path='user/:userid' element={<User/>}/>  1st type*/}
+                <Route path='user/' element={<User/>}/>
         </Routes>
     </BrowserRouter>
   )
