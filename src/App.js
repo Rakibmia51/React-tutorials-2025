@@ -44,6 +44,7 @@ import ContextUserManagement from "./UsingContext/ContextApiUserManagement/App.j
 import UseReducerWithContextApi from "./UsingContext/UseReducerWithContextApi/App.js";
 import App_ReactRouting from "./ReactRouting/App.js";
 import ProtectedRouting from "./ProtectedRouting/App.js";
+import JsonServer from "./jsonServer/index.js";
 
 
 
@@ -110,7 +111,8 @@ function App(){
                 {/* <ContextUserManagement/> */}
                 {/* <UseReducerWithContextApi/> */}
                 {/* <App_ReactRouting/> */}
-                <ProtectedRouting/>
+                {/* <ProtectedRouting/> */}
+                <JsonServer/>
 
             </div>
 }
