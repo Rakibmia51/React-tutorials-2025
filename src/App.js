@@ -46,6 +46,7 @@ import App_ReactRouting from "./ReactRouting/App.js";
 import ProtectedRouting from "./ProtectedRouting/App.js";
 import JsonServer from "./jsonServer/index.js";
 import Helmet from "./helmetPackage/index.js";
+import Memo from "./ReactMemo/App.js";
 
 
 
@@ -114,7 +115,8 @@ function App(){
                 {/* <App_ReactRouting/> */}
                 {/* <ProtectedRouting/> */}
                 {/* <JsonServer/> */}
-                <Helmet/>
+                {/* <Helmet/> */}
+                <Memo/>
 
             </div>
 }
