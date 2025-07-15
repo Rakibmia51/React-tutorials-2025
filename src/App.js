@@ -45,6 +45,7 @@ import UseReducerWithContextApi from "./UsingContext/UseReducerWithContextApi/Ap
 import App_ReactRouting from "./ReactRouting/App.js";
 import ProtectedRouting from "./ProtectedRouting/App.js";
 import JsonServer from "./jsonServer/index.js";
+import Helmet from "./helmetPackage/index.js";
 
 
 
@@ -112,7 +113,8 @@ function App(){
                 {/* <UseReducerWithContextApi/> */}
                 {/* <App_ReactRouting/> */}
                 {/* <ProtectedRouting/> */}
-                <JsonServer/>
+                {/* <JsonServer/> */}
+                <Helmet/>
 
             </div>
 }

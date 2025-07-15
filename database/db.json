@@ -1,6 +1,7 @@
 {
     "users": [
         {"id": 1, "name": "rakibul hasan", "email": "miarakib931@gmail.com"},
-        {"id": 2, "name": "sakibul hasan", "email": "miarakib932@gmail.com"}
+        {"id": 2, "name": "sakibul hasan", "email": "miarakib932@gmail.com"},
+        {"id": 3, "name": "Sakil hasan", "email": "miarakib933@gmail.com"}
     ]
 }
