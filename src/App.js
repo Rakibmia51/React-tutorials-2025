@@ -43,6 +43,7 @@ import UserManagement from "./UsingContext/UserManagement/App.js";
 import ContextUserManagement from "./UsingContext/ContextApiUserManagement/App.js";
 import UseReducerWithContextApi from "./UsingContext/UseReducerWithContextApi/App.js";
 import App_ReactRouting from "./ReactRouting/App.js";
+import ProtectedRouting from "./ProtectedRouting/App.js";
 
 
 
@@ -108,7 +109,8 @@ function App(){
                 {/* <UserManagement/> */}
                 {/* <ContextUserManagement/> */}
                 {/* <UseReducerWithContextApi/> */}
-                <App_ReactRouting/>
+                {/* <App_ReactRouting/> */}
+                <ProtectedRouting/>
 
             </div>
 }
