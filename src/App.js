@@ -47,6 +47,7 @@ import ProtectedRouting from "./ProtectedRouting/App.js";
 import JsonServer from "./jsonServer/index.js";
 import Helmet from "./helmetPackage/index.js";
 import Memo from "./ReactMemo/App.js";
+import CallBack from "./UseCallbackHook/App.js";
 
 
 
@@ -116,7 +117,8 @@ function App(){
                 {/* <ProtectedRouting/> */}
                 {/* <JsonServer/> */}
                 {/* <Helmet/> */}
-                <Memo/>
+                {/* <Memo/> */}
+                <CallBack/>
 
             </div>
 }
